@@ -16,7 +16,7 @@ On this To-Do list, items can be added. When tasks completed, marked them as so.
 
 ## Live Demo
 
-[https://nicupop729.github.io/to-do-app-with-react]()
+[Live Demo](https://nicupop729.github.io/to-do-app-with-react)
 
 ## Getting Started
 
