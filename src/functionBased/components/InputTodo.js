@@ -1,9 +1,9 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { FaPlusCircle } from 'react-icons/fa';
 
 const InputTodo = (props) => {
-  const [addTodoProps] = props;
-
   const [inputText, setInputText] = useState({
     title: '',
   });
@@ -18,7 +18,7 @@ const InputTodo = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (inputText.title.trim()) {
-      addTodoProps(inputText.title);
+      props.addTodoProps(inputText.title);
       setInputText({
         title: '',
       });
@@ -44,6 +44,10 @@ const InputTodo = (props) => {
       </button>
     </form>
   );
+};
+
+InputTodo.propTypes = {
+  addTodoProps: PropTypes.func.isRequired,
 };
 
 export default InputTodo;
