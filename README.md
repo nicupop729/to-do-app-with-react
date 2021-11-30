@@ -16,7 +16,7 @@ On this To-Do list, items can be added. When tasks completed, marked them as so.
 
 ## Live Demo
 
-[Live Demo Link](https://to-do-app-with-react.netlify.app/)
+[Live Demo Link - in production]()
 
 ## Getting Started
 
