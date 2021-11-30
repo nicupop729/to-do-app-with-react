@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//component file
+// component file
 import TodoContainer from './functionBased/components/TodoContainer';
 
-//stylesheet
+// stylesheet
 import './functionBased/App.css';
 
 ReactDOM.render(
