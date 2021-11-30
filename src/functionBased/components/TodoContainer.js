@@ -53,8 +53,7 @@ const TodoContainer = () => {
     setTodos(
       todos.map((todo) => {
         if (todo.id === id) {
-          // eslint-disable-next-line no-param-reassign
-          todo.title = updatedTitle;
+          return { ...todo, title: updatedTitle };
         }
         return todo;
       }),
@@ -68,8 +67,6 @@ const TodoContainer = () => {
   }, [todos]);
 
   // useEffect(() => {
-  //   console.log('test run');
-
   //   // getting stored items
   //   const temp = localStorage.getItem('todos');
   //   const loadedTodos = JSON.parse(temp);

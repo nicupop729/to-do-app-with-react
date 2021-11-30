@@ -13,7 +13,7 @@ const SinglePage = () => {
       slug: 'about-author',
       title: 'About the Author',
       description:
-        'This app was developed by Ibas Majid, a self-taught web developer and a technical writer. He is opened to freelance Gig. So go ahead and connect with ibas on Twitter @ibaslogic.',
+        'This app was developed by Nicolae Pop, a self-taught web developer, following a tutorial by Ibas Majid, also a self-taught web developer and a technical writer. He is opened to freelance Gig. So go ahead and connect with ibas on Twitter @ibaslogic.',
     },
   ];
   const { slug } = useParams();
